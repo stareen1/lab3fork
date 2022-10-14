@@ -33,7 +33,7 @@ public class ArrayTests {
   @Test
   public void testAverageWithoutOneLowest() {
     double[] input1 = {1, 2, 3, 1};
-    assertEquals(2.0, ArrayExamples.averageWithoutLowest(input1));
+    assertEquals(2.0, ArrayExamples.averageWithoutLowest(input1), 0);
   }
   
 }
